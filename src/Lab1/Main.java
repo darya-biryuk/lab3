@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        Customer customer = new Customer("Придыбайло", "Дарья", "Викторовна");
+        Customer customer = new Customer("Бирюк", "Дарья", "Викторовна");
         Garment.showCatalog();
         System.out.println("Выберете товар в корзину");
         System.out.println("Нажмите '0' для покупки");
